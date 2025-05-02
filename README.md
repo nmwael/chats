@@ -1,2 +1,2 @@
 # chats
-Compliance, Hardening, Automation via Trusted Security
+Compliance, Hardening, Automation = True Security
