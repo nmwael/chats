@@ -9,11 +9,10 @@ jobs:
       image: ghcr.io/xfhg/intercept:1.0.12-linux-amd64@sha256:81796fbf9eeebf096ba3d4bdf3b40a7ddd298f9a43650dc10f8a22fc5b92c479
       env:
         test: development
-      ports:
-        - 80
-      volumes:
-        - my_docker_volume:/volume_mount
       options: --cpus 1
     steps:
-      - name: Check for dockerenv file
-        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run intercept with mock policy
+        run: |
+          ./intercept audit --policy playground/policies/mock_github.yaml --target playground/targets/ -vvvv 
