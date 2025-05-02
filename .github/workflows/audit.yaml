@@ -6,7 +6,7 @@ jobs:
   container-test-job:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xfhg/intercept:1.0.12-linux-amd64@sha256:81796fbf9eeebf096ba3d4bdf3b40a7ddd298f9a43650dc10f8a22fc5b92c479
+      image: ghcr.io/xfhg/intercept:1.0.12-linux-amd64@sha256:58affc84e5f3709419505c9ae6bb803bf81662ffc439e5aa280eab43e8e89714
       env:
         test: development
       options: --cpus 1
