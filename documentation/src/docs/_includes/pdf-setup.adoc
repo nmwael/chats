@@ -1,0 +1,8 @@
+:listing-caption: Listing
+:sectnums:
+:icons: font
+:icon-set: fas
+:title-page:
+:xrefstyle: full
+:prewrap!:
+:organization: Opensource / NMWAEL

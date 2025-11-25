@@ -1,0 +1,36 @@
+= CHATS Manual
+:source-highlighter: highlightjs
+:doctype: book
+:autofit-option:
+:xrefstyle: full
+ifndef::includedir[]
+:includedir: _includes
+endif::[]
+include::{includedir}/name-definitions.adoc[]
+include::{includedir}/pdf-setup.adoc[]
+
+
+== Purpose
+
+To describe the technical architecture and usage details for {chats}(CHATS). Expand knowledge about how chats can be used.
+
+
+== Intended audience
+Intended audience for this document is:
+
+* Software architects and developers
+* DevOps architects and engineers
+* Operation engineers and administrators
+
+
+== Ideology of asciidoc
+
+You can even use inline plantuml.
+
+
+
+NOTE:: https://docs.asciidoctor.org/diagram-extension/latest/diagram_types/plantuml/
+
+
+
+include::{includedir}/glossary.adoc[]

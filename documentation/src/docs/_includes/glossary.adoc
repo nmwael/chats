@@ -1,0 +1,6 @@
+[#_glossary]
+[glossary]
+= Glossary
+
+[horizontal]
+[[CVE]]CVE:: Common Vulnerabilities and Exposures
