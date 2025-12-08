@@ -1,4 +1,13 @@
 {
   "name": "chats-devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/base:debian"
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jebbs.plantuml",
+        "vstirbu.vscode-mermaid-preview",
+        "asciidoctor.asciidoctor-vscode"
+      ]
+    }
+  }
 }
