@@ -27,7 +27,14 @@ Intended audience for this document is:
 
 You can even use inline plantuml.
 
+Example of a simple Sequence diagram.
 
+.Sequence diagram
+[plantuml, sequence-diagram, png]
+----
+Alice -> Bob: request
+Bob --> Alice: response
+----
 
 NOTE:: https://docs.asciidoctor.org/diagram-extension/latest/diagram_types/plantuml/
 
